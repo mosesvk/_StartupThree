@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className='flex items-center justify-between'>
         {/* <!-- Logo --> */}
         <div className='pt-2'>
-          <Image src={logoImg} alt='logo' height={50} width={150} />
+          <Image src={logoImg} alt='logo' className='h-8' />
         </div>
         {/* <!-- Menu Items --> */}
         <div className='hidden space-x-6 md:flex child-hover:bg-secondary child-hover:text-white child:duration-200 child:p-2 child:rounded-full'>

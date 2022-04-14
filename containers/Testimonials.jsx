@@ -21,7 +21,7 @@ const Testimonials = () => {
         <div
           className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
         >
-          <Image src={avatar1} className="w-16 -mt-14" alt="" />
+          <Image src={avatar1} className="w-16 -mt-14 h-8" alt="" />
           <h5 className="text-lg font-bold">Anisha Li</h5>
           <p className="text-sm text-darkGrayishBlue">
             “Manage has supercharged our team’s workflow. The ability to
@@ -34,7 +34,7 @@ const Testimonials = () => {
         <div
           className="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
         >
-          <Image src={avatar2} className="w-16 -mt-14" alt="" />
+          <Image src={avatar2} className="w-16 -mt-14 h-8" alt=""  />
           <h5 className="text-lg font-bold">Ali Bravo</h5>
           <p className="text-sm text-darkGrayishBlue">
             “We have been able to cancel so many other subscriptions since
