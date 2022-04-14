@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Features from '../containers/Features';
 import Hero from '../containers/Hero';
+import Testimonials from '../containers/Testimonials';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Features />
+        <Testimonials />
       </main>
     </div>
   );
