@@ -16,10 +16,10 @@ const CTA = () => {
       </h2>
       {/* <!-- Button --> */}
       <div>
-        <Link
+        <button
           href="#"
-          className="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
-          >Get Started</Link>
+          className="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-secondary hover:text-white duration-500"
+          >Get Started</button>
       </div>
     </div>
   </section>

@@ -58,10 +58,10 @@ const Testimonials = () => {
       </div>
       {/* <!-- Button --> */}
       <div className="my-16">
-        <Link
+        <button
           href="#"
-          className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
-          >Get Started</Link>
+          className="p-3 px-6 pt-2 text-white bg-primary rounded-full baseline hover:bg-secondary duration-500"
+          >Get Started</button>
       </div>
     </div>
   </section>
