@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
+import Features from '../containers/Features';
 import Hero from '../containers/Hero';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <main>
         <Navbar />
         <Hero />
+        <Features />
       </main>
     </div>
   );
