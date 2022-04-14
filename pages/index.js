@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import CTA from '../containers/CTA';
 import Features from '../containers/Features';
@@ -20,6 +21,7 @@ export default function Home() {
         <Testimonials />
         <CTA />
       </main>
+      <Footer />
     </div>
   );
 }
