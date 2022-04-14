@@ -5,7 +5,7 @@ import logoImg from '../assets/images/logo.svg'
 
 const Navbar = () => {
   return (
-    <nav className='relative container mx-auto p-6'>
+    <div className='relative container mx-auto p-6'>
       {/* <!-- Flex container --> */}
       <div className='flex items-center justify-between'>
         {/* <!-- Logo --> */}
@@ -13,30 +13,30 @@ const Navbar = () => {
           <Image src={logoImg} alt='logo' height={50} width={150} />
         </div>
         {/* <!-- Menu Items --> */}
-        <div className='hidden space-x-6 md:flex'>
-          <Link href='#' className='hover:text-darkGrayishBlue'>
+        <div className='hidden space-x-6 md:flex child-hover:bg-secondary child-hover:text-white child:duration-200 child:p-2 child:rounded-full'>
+          <Link href='#'>
             Pricing
           </Link>
-          <Link href='#' className='hover:text-darkGrayishBlue'>
+          <Link href='#'>
             Product
           </Link>
-          <Link href='#' className='hover:text-darkGrayishBlue'>
+          <Link href='#'>
             About Us
           </Link>
-          <Link href='#' className='hover:text-darkGrayishBlue'>
+          <Link href='#'>
             Careers
           </Link>
-          <Link href='#' className='hover:text-darkGrayishBlue'>
+          <Link href='#'>
             Community
           </Link>
         </div>
         {/* <!-- Button --> */}
-        <Link
+        <button
           href='#'
-          className='hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block'
+          className='hidden p-3 px-6 pt-2 text-white bg-primary rounded-full baseline hover:bg-secondary md:block duration-200'
         >
           Get Started
-        </Link>
+        </button>
 
         {/* <!-- Hamburger Icon --> */}
         <button
@@ -62,7 +62,7 @@ const Navbar = () => {
           <Link href='#'>Community</Link>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 
